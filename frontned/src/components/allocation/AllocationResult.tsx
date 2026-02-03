@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { AllocationResult } from "@/types";
+import type { AllocationResult } from "@/types";
 import { getFloorBadgeColor } from "@/lib/utils";
 import {
   CheckCircle2,
