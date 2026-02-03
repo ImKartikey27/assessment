@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ClassroomCard } from "@/components/classroom/ClassroomCard";
 import { PageLoadingSpinner } from "@/components/common/LoadingSpinner";
 import { useClassrooms } from "@/hooks/useClassrooms";
-import { LayoutDashboard, BookOpen, Zap, Users, Building2 } from "lucide-react";
+import { BookOpen, Users, Building2 } from "lucide-react";
 
 export default function Dashboard() {
   const { data: classrooms, isLoading } = useClassrooms();
